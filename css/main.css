@@ -54,25 +54,21 @@ body {
 
 nav {
 	text-align: center;
-	margin-top: 30px;
-	padding-bottom: 30px;
-	
+		
 }
+
 nav ul {
 	list-style-type: none;
 
 }
 nav ul li {
 	display: inline;
-	margin-right: 10px;
-	margin-left: 10px;
+	margin-right: 1.2em;
 	font-family: 'Josefin Sans', sans-serif;
 	font-size: 2em;
 	border: solid .09em;
 	border-radius: .1em;
 	border-color: #007fff;
-	padding: .2em;
-	margin-right: .3em;
 	background-color: #007fff;
 
 }
@@ -239,9 +235,9 @@ footer {
 	padding: 50px;
 }
 
-@media (min-width: 551px) {
+@media (max-width: 551px) {
 	#container {
-		text-align: center;
+		text-align: none;
 	}
 
 }
@@ -289,7 +285,18 @@ footer {
 	#img-1 {
 		width: 100%;
 	}
+
+	#title_info {
+		text-align: center;
+	}
+
+	#sample-links {
+		text-align: center;
+	}
+
+
 }
+
 
 @media (min-width: 1282px) {
 	#buttons-style {
