@@ -236,3 +236,124 @@ footer {
 	text-align: center;
 	padding: 50px;
 }
+
+@media (min-width: 551px) {
+	#container {
+		text-align: center;
+	}
+
+}
+
+@media (min-width: 893px) {
+
+	#patterns {
+		text-align: center;
+	}
+
+	#colors {
+		width: auto;
+	} 
+
+	#red {
+		padding: 20px;
+		margin-right: 70px;
+		margin-left: 85px;
+	}
+
+	#blue {
+		padding: 20px;
+		margin-right: 70px
+
+	}
+
+	#yellow {
+		padding: 20px;
+		margin-right: 70px
+	}
+
+	#brown {
+		padding: 20px;
+		margin-right: 0px
+	}
+
+	#button-1 {
+		width: 23rem;
+	}
+
+	#button-2 {
+		width: 23rem;
+	}
+
+	#img-1 {
+		width: 100%;
+	}
+}
+
+@media (min-width: 1282px) {
+	#buttons-style {
+		margin: auto;
+		text-align: center;
+	}
+	#button-1 {
+		
+		text-align: center;
+	}
+	#button-2 {
+		
+		text-align: center;
+
+	}
+
+	#info {
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#colors {
+		
+		margin-left: 200px;
+		margin-right: 200px;
+	}
+
+	#red {
+		width: 95%;
+		margin-top: 2rem;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: none;
+		text-align: center;
+	}
+
+	#blue {
+		width: 95%;
+		margin-top: 2rem;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: none;
+		text-align: center;
+
+	}
+
+	#yellow {
+		width: 95%;
+		margin-top: 2rem;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: none;
+		text-align: center;
+	}
+
+	#brown {
+		width: 95%;
+		margin-top: 2rem;
+		margin-left: 0px;
+		margin-right: 0px;
+		float: none;
+		text-align: center;
+	}
+
+	#logo {
+		
+		text-align: center;
+	}
+}
