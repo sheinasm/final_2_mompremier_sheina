@@ -149,7 +149,7 @@ nav ul li a:hover {
 
 #info {
 	padding: 30px;
-	background-image: url("images ratatouille/gradient.jpg");
+	background-image: url("img/gradient.jpg");
 	overflow: hidden;
 }
 #sample-links {
@@ -175,6 +175,7 @@ nav ul li a:hover {
 #buttons-style {
 	text-align: center;
 	padding-top: 10px;
+	overflow: hidden;
 
 }
 
@@ -185,6 +186,7 @@ nav ul li a:hover {
 
 #button-1 a:hover {
 	color: yellow;
+
 }
 #button-1 {
 	background-color: #007fff;
